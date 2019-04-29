@@ -1,0 +1,19 @@
+{
+    "tipTitle": "提示",
+    "tipSureButton": "确定",
+    "tipCancelButton": "取消",
+    "tipRequestSending": "正在发送请求",
+    
+    "tipQuitSending": "正在安全退出",
+    "tipLoginSending": "正在为您登录",
+    "tipRegistSending": "正在为您注册账户",
+    "tipVerificationCodeSending": "正在发送验证码",
+    "tipVerificationCodeSuccess": "发送验证码查看",
+    "tipInputRightMobileNumber": "请输入正确的手机号码",
+        
+    "errorMsg401": "请去登录",
+    "errorMsg40x": "授权失败",
+    "errorMsg50x": "服务器异常，请稍后重试",
+    "errorMsg30x": "服务器跳转中",
+    "errorMsgNetworkUnavailable": "网络连接已断开"
+}

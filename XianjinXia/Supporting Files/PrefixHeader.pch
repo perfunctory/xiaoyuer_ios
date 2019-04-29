@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  XianjinXia
+//
+//  Created by lxw on 17/1/23.
+//  Copyright © 2017年 lxw. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define ScreenRateFor6     SCREEN_WIDTH/375.0
+#define ScreenRateFor5     SCREEN_WIDTH/320.0
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#define kMainCellColor [UIColor colorWithRed:248/255.0 green:248/255.0 blue:255/255.0 alpha:1]
+
+#define kInputViewHeight 50
+
+#define QM_IS_IPHONEX (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+
+#define kScreenHeight (QM_IS_IPHONEX ? ([[UIScreen mainScreen] bounds].size.height - 34) : ([[UIScreen mainScreen] bounds].size.height))
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "BaseDefinition.h"
+#import "Constants.h"
+#import "URLDefine.h"
+#import "ColorDefine.h"
+#import "FontDefine.h"
+#import "UmengDefine.h"
+#import "UIView+Additions.h"
+#import "MJRefresh.h"
+#import "MXTool.h"
+#import "TipMessage.h"
+#import <Masonry.h>
+#import "UIColor+Extensions.h"
+#import "UIButton+Masonry.h"
+#import "UIImageView+Masonry.h"
+#import "UITextField+Masonry.h"
+#import "UIView+Masonry.h"
+#import "UILabel+Masonry.h"
+#import "MyHandle.h"
+
+#import "DXAlertView.h"
+#import "ApplicationUtil.h"
+
+#import "UIImage+GIF.h"
+#import "UIImageView+WebCache.h"
+#import "MLEmojiLabel.h"
+//#import "QMDateManager.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
